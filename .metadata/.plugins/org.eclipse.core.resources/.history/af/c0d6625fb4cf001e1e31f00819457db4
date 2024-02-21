@@ -1,0 +1,11 @@
+package org.kh.java;
+public class Variable8 {
+	public static void main(String[] args) {
+		var unm1 = 29.456;
+		var unm2 = 34;
+		var unm3 = 'k';
+		var unm4 = "강민우";
+		var unm5 = true;
+	}
+
+}

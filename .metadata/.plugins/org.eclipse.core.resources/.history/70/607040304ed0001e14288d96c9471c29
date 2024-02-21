@@ -1,0 +1,18 @@
+package org.kh.site2;
+//논리 연산자(Logical Operation) : &&(and), ||(or), !(not)
+public class Operation6 {
+	public static void main(String[] args) {
+		int a = 26;
+		int b = 28;
+		int c = 27;
+		//and 논리 : 모든 입력이 true일 경우 출력이 true가 된다.
+		System.out.println("a > b && b > c :"+(a > b && a > c)); // &&는 두개중 하나라도 맞지않으면 false가 나온다
+		System.out.println("a > b && b > c :"+(a > b && b > c)); // ||는 두개중 하나라도 맞으면 ture 둘다 맞지 않으면 false
+		System.out.println("a > b && b > c :"+(a < b && b < c)); // !는 반대의 의미
+		System.out.println("a > b && b > c :"+(a < b && b > c));
+		
+				
+
+	}
+
+}
