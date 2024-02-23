@@ -34,13 +34,10 @@ public class Conditino4{
 			result = "F";
 		}
 		 
-		case = "A++";
-			remakr = "우수상";
-			break;
 		
 		System.out.println("당신의 점수는 "+point+" 입니다");
 		System.out.println("당신의 학점은 "+result+" 입니다");
-		System.out.println("당신의 시상내역 : "+remakr);
+		
 					
 		 //점수를 키보드로 입력 받아 판정과 학점 그리고, 시상내용을 쓰시오,
 		 //학점(result)은 점수(point)가

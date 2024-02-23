@@ -11,6 +11,10 @@ public class Condition2 {
 			gender = "여성";
 		}
 		System.out.printf("%n당신의 성별은 %s", gender);
+	}
+}
+		
+		
 		/*
 		if(sel=='1' || sel=='3') {
 			gender = "남성";

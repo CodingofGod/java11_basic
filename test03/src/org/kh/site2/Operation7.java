@@ -34,15 +34,15 @@ public class Operation7 {
 		// >>(>>>, right shift)(나누기 원리)
 		
 		System.out.println("x << 2 : "+Integer.toBinaryString(x << 2));
-		// <<(left shift) ()
+		// <<(left shift) (곱하는 원리)
 		
 		System.out.println("*********** 대입 연산자 ************");
 		
 		// i= 16 8 4 2 1
 		// j= 16 8 4 2 1
-		
+		      
 		int i = 25; //1 1 0 0 1
-		int j = 30; //1 1 1 1 0
+		int j = 30; //1 1 1 1 0 0 0 0
 		i &= j;
 		System.out.println("i &= j : "+i); // 1 1 0 0 0 =>24
 		
